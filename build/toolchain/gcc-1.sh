@@ -51,3 +51,4 @@ cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
   `dirname $($LFS_TGT-gcc -print-libgcc-file-name)`/install-tools/include/limits.h
 #install headers
 
+$LFS/tools/libexec/gcc/$LFS_TGT/10.2.0/install-tools/mkheaders
